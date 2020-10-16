@@ -41,6 +41,7 @@ export default ({ styleClass }) => {
   return (
     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
       {tempLinks}
+      <li><a href="https://eliasgillgren.se/cv/">My CV</a></li>
     </ul>
   )
 }
